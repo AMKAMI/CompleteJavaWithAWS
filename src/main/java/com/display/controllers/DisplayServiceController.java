@@ -11,4 +11,9 @@ public class DisplayServiceController {
 		return "DisplayService Caller";
 	}
 	
+	@GetMapping("/show")
+	public String getShowResonse() {
+		return "Amit has created a new controller";
+	}
+	
 }
